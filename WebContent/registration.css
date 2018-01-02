@@ -1,0 +1,297 @@
+*{
+	
+	padding:0px;
+	margin:0px;
+	
+}
+
+ul{
+        padding: 0;
+        list-style: none;
+		margin:0;
+        background: #f2f2f2;
+    }
+    ul li{
+		margin:0;
+        display: inline-block;
+        position: relative;
+       /* line-height: 21px;*/
+        text-align: left;
+    }
+    ul li a{
+        display: block;
+        color: #333;
+		margin:0;
+		padding:16px 28.22px;
+        text-decoration: none;
+    }
+    ul li a:hover{
+        color: #fff;
+        background: #939393;
+    }
+    ul li ul.dropdown{
+		min-width: 115px;/* Set width of the dropdown */
+        background: #f2f2f2;
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 0;
+    }
+	ul li ul.dropdown1{
+		max-width: 136px;/* Set width of the dropdown */
+        background: #f2f2f2;
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 0;
+    }
+	ul li ul.dropdown2{
+		min-width: 144px;/* Set width of the dropdown */
+        background: #f2f2f2;
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 0;
+    }
+    ul li:hover ul.dropdown{
+        display: block;	/* Display the dropdown */
+    }
+    ul li ul.dropdown li{
+        display: block;
+    }
+	ul li:hover ul.dropdown1{
+        display: block;	/* Display the dropdown */
+    }
+    ul li ul.dropdown1 li{
+        display: block;
+    }
+	ul li:hover ul.dropdown2{
+        display: block;	/* Display the dropdown */
+    }
+    ul li ul.dropdown2 li{
+        display: block;
+    }
+	.mk{
+		background-color:red;
+		position:fixed;
+		/*background-image:url("logo.JPG");*/
+		float:left;
+		margin-left:100px;
+		width:315px;
+		height:100px;
+		background-color: #f2f2f2;
+	}
+	.mk1{
+		background-color:#F2F2F2;
+		margin-left:415px;
+		position:fixed;
+		/*background-image:url("logo.JPG");*/
+		float:left;
+		width:469px;
+		height:50px;
+	}
+	.mk2{
+		margin-left:884px;
+		position:fixed;
+		float:left;
+		width:387px;
+		height:50px;
+	}
+	.mk3{
+		float:left;
+		margin-left:415px;
+		margin-top:50px;
+		position:fixed;
+		width:856px;
+		height:50px;
+	}
+	#3{
+		float:left;
+	}
+	#4{
+		float:left;
+	}
+	marquee {
+        width:469px;
+        height:50px;
+        margin-top:20px;
+		color:red;
+		font-size:20px;
+		font-weight:bold;
+		font-style:oblique;
+        white-space: nowrap; 
+        overflow: hidden;
+    }
+	.first{
+		/*background-color:white;*/
+		background-image: url("reg2.png");
+		margin-left:100px;
+		margin-top:150px;
+		float:left;
+		width:1171px;
+		height:700px;
+	}
+	
+	#d1{
+	margin-left:170px;
+	float:left;
+	color:green;
+	width:1171;
+	}
+	#d2{
+	float:left-side;
+	width:586px;
+	margin-top:100px;
+	margin-left:250px;
+	}
+	#d3{
+	float:left;
+	padding-top:250px;
+	width:465px;
+	margin-left:500px;
+	margin-top:-135px;
+	}
+	#d4{
+		padding-top:50px;
+		background-color:white;
+		float:left;
+		margin:150px 20px 10px 100px;
+		width:566px;
+		height:300px;
+		color:green;
+		text-align:center;
+		font-size:40px;
+		font-weight:bold;
+		border-radius:10px;
+	}
+	#d5{
+		padding-top:50px;
+		color:green;
+		text-align:center;
+		font-size:40px;
+		font-weight:bold;
+		background-color:white;
+		float:left;
+		margin:150px 0px 10px 20px;
+		width:565px;
+		height:300px;
+		border-radius:10px;
+	}
+	#d6{
+		padding-top:50px;
+		color:green;
+		text-align:center;
+		font-size:40px;
+		font-weight:bold;
+		background-color:white;
+		float:left;
+		margin:10px 20px 0px 100px;
+		width:566px;
+		height:300px;
+		border-radius:10px;
+	}
+	#d7{
+		padding-top:50px;
+		color:green;
+		text-align:center;
+		font-size:40px;
+		font-weight:bold;
+		background-color:white;
+		float:left;
+		margin:10px 20px 0px 20px;
+		width:300px;
+		height:300px;
+		border-radius:10px;
+	}
+	#d8{
+		padding-top:50px;
+		color:green;
+		text-align:center;
+		font-size:40px;
+		font-weight:bold;
+		background-color:white;
+		float:left;
+		margin:10px 0px 0px 20px;
+		width:225px;
+		height:300px;
+		border-radius:10px;
+	}
+	#d9{
+	text-align:center;
+	font-weight:bold;
+	font-size:40px;
+	color:green;
+	width:1171;
+	height:100px;
+	}
+	#d10{
+	height:300px;
+	width:1171px;
+	}
+	form{
+	   margin:70px;
+	}
+	fieldset {
+    border:1px solid #999;
+    border-radius:8px;
+    box-shadow:0 0 10px #999;
+    }
+	legend{
+	   font-size:30px;
+	   color:blue;
+	   font-weight:bold;
+	   border-radius:10px;
+	   background:#fff;
+	}
+	table{
+	   color:brown;
+	   font-weight:bold;
+	   font-size:18px;
+	}
+	.b1{
+	   background-color:brown;
+	   color:white;
+	   font-weight:bold;
+	   font-size:15px;
+	   border-radius:10px;
+	}
+	input{
+	   background-color:#f2f2f2;
+	   border-radius:10px;
+	}
+	#name{
+		
+		background-size:18px;
+		background-position:left;
+		background-repeat:no-repeat;
+		padding-left:25px;
+	}
+	#password{
+		
+		background-size:18px;
+		background-position:left;
+		background-repeat:no-repeat;
+		padding-left:25px;
+	}
+	body{
+		background-repeat: no-repeat;
+        background-attachment: fixed;
+	}
+	.fix{
+		position:fixed;
+		background-position:left;
+	}
+	.last{
+		margin:30px  0px 0px 100px;
+		float:left;
+		background-color:#FFFBEB;
+		width:1171px;
+		height:50px;
+		border-radius:5px;
+	}
+	p{
+		font-size:12px;
+		margin-right:10px;
+		margin-top:30px;
+		text-align:center;
+	}

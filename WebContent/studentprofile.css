@@ -1,0 +1,63 @@
+#detailsdisplay
+{
+	float:left;
+	width:1171px;
+	height:100px;
+}
+#i1
+{
+	float:left;
+	margin-top:10px;
+	color:blue;
+	font-weight:bold;
+	font-size:20px;
+}
+#i2
+{
+	font-weight:bold;
+	font-size:20px;
+	margin-top:10px;
+	float:right;
+	color:blue;
+}
+#quicklinks li
+{
+	list-style-type:none;
+	background-color:white;
+	display:block;
+	padding:10px;
+}
+#quicklinks li a
+{
+	text-decoration:none;
+	color:black;
+	background-color:white;
+	font-size:25px;
+	padding:10px;
+}
+
+#quicklinks
+{
+	float:left;
+	margin-left:20px;
+	width:200px;
+	height:500px;
+	background-color:white;
+}
+#display{
+	float:left;
+	width:951px;
+	height:585px;
+}
+#timetable{
+display:none;
+}
+#timetable:target{
+display:block;
+}
+#profile{
+display:none;
+}
+#profile:target{
+display:block;
+}
