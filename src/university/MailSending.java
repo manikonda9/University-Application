@@ -8,7 +8,7 @@ public class MailSending{
     	final String toMail=null;
     	final String pw=null;
      
-     String to="kondaiah121@gmail.com";//change accordingly 
+     String to="************";//change accordingly 
      
       //Get the session object 
       Properties props = new Properties(); 
